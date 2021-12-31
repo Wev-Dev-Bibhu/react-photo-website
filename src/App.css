@@ -252,14 +252,13 @@ nav{
   justify-content: center;
   align-items: center;
   transition: 0.3s;
-  
-
 }
 .img_box:hover .img_shade{
 opacity: 1;
 
 }
 .img_box img{
+  height: 210px;
   width: 350px;
   margin-bottom: 30px;
 }
