@@ -9,6 +9,10 @@ nav{
   display: flex;
   justify-content: space-between;
 }
+.menu_btn,
+.menuShow{
+  display: none;
+}
 .nav .logo{
   display: flex;
   justify-content: center;
@@ -252,14 +256,13 @@ nav{
   justify-content: center;
   align-items: center;
   transition: 0.3s;
-  
-
 }
 .img_box:hover .img_shade{
 opacity: 1;
 
 }
 .img_box img{
+  height: 210px;
   width: 350px;
   margin-bottom: 30px;
 }
@@ -332,11 +335,66 @@ footer a{
 /* Media Screen  for Phone */
 @media (max-width:600px) {
   nav{
-    /* position: fixed; */
+    position: fixed; 
+    z-index: 999;
     flex-direction: column;
     height: 100vh;
     width: 35vh;
     justify-content: flex-start;
+    transition: 0.5s;
+    
+  }
+  nav.menu_toggle{
+    left: -300px;
+  }
+  .menu_btn{
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .menu_btn .bar{
+    height: 1px;
+    width: 100%;
+    background: #fff;
+    margin: 2px;
+    position: relative;
+  }
+  .menu_btn div:nth-child(1){
+    transform: translateY(7px) rotate(45deg);
+    height: 3px;
+  }
+  .menu_btn div:nth-child(2){
+    transform: translateY(0px) rotate(315deg);
+    color: red;
+    height: 3px;
+  }
+  .menuShow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    flex-direction: column;
+    border-radius: 2px;
+    width: 45px;
+    background: #000000;
+    position: fixed;
+    top: 40px;
+    left: 30px;
+    padding: 0 7px;
+    cursor: pointer;
+  }
+  .menuShow .showBar{
+    height: 2px;
+    width: 100%;
+    background: #fff;
+    margin: 4px;
   }
   .nav .logo{
     width: 100px;
@@ -395,7 +453,7 @@ footer a{
   }
   #box3,
   #box2{
-    background: url(./components/images/img2.webp) no-repeat;
+    background: url(./components/images/ARYAN1.jpg) no-repeat;
     background-position: 45% 50%;
     background-size: cover;
   }

@@ -3,7 +3,7 @@ import Navbar from './components/Navbar';
 import Section1 from './components/Section1';
 import Collection from './components/Collection';
 import Footer from './components/Footer';
-import { BrowserRouter as Router, Switch, Route, Link, Redirect } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
 function App() {
   return (
     <Router>
@@ -17,5 +17,4 @@ function App() {
     </Router>
   );
 }
-
 export default App;

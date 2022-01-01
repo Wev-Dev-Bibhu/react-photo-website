@@ -1,5 +1,10 @@
 import React from 'react'
-import img1 from './images/img1.webp'
+import male from './images/img1.webp'
+import female from './images/female.jpg'
+import wedding from './images/wedding.jpg'
+import glamour from './images/glamour.jpg'
+import boudoir from './images/BOUDOIR.jpg'
+import fine_arts from './images/fine_arts.jpg'
 
 function Collection() {
     return (
@@ -12,33 +17,33 @@ function Collection() {
 
            <div className="img_box">
                <div className="img_shade">+</div>
-               <img src={img1} alt="MALE Pics" />
+               <img src={male} alt="MALE Pics" />
                <span>MALE</span>
            </div>
            <div className="img_box">
                <div className="img_shade">+</div>
-               <img src={img1} alt="MALE Pics" />
-               <span>MALE</span>
+               <img src={female} alt="MALE Pics" />
+               <span>FEMALE</span>
            </div>
            <div className="img_box">
                <div className="img_shade">+</div>
-               <img src={img1} alt="MALE Pics" />
-               <span>MALE</span>
+               <img src={wedding} alt="MALE Pics" />
+               <span>WEDDINGS</span>
            </div>
            <div className="img_box">
                <div className="img_shade">+</div>
-               <img src={img1} alt="MALE Pics" />
-               <span>MALE</span>
+               <img src={glamour} alt="MALE Pics" />
+               <span>GLAMOUR</span>
            </div>
            <div className="img_box">
                <div className="img_shade">+</div>
-               <img src={img1} alt="MALE Pics" />
-               <span>MALE</span>
+               <img src={boudoir} alt="MALE Pics" />
+               <span>BOUDIOR</span>
            </div>
            <div className="img_box">
                <div className="img_shade">+</div>
-               <img src={img1} alt="MALE Pics" />
-               <span>MALE</span>
+               <img src={fine_arts} alt="MALE Pics" />
+               <span>FINE ARTS</span>
            </div>
           
        </div>
