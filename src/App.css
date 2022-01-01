@@ -472,6 +472,9 @@ footer a{
     height: 100px;
     width: auto;
   }
+  footer p{
+    font-size: 14px;
+  }
 }
 
 
