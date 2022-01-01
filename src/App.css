@@ -389,6 +389,7 @@ footer a{
     left: 30px;
     padding: 0 7px;
     cursor: pointer;
+    z-index: 999;
   }
   .menuShow .showBar{
     height: 2px;
