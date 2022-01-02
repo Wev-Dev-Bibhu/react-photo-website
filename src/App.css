@@ -348,12 +348,12 @@ footer a{
     left: -300px;
   }
   .menu_btn{
-    height: 20px;
-    width: 20px;
+    height: 25px;
+    width: 25px;
     cursor: pointer;
     position: absolute;
-    right: 10px;
-    top: 20px;
+    right: 20px;
+    top: 35px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -362,7 +362,7 @@ footer a{
   .menu_btn .bar{
     height: 1px;
     width: 100%;
-    background: #fff;
+    background: rgb(253, 1, 1);
     margin: 2px;
     position: relative;
   }
@@ -372,7 +372,6 @@ footer a{
   }
   .menu_btn div:nth-child(2){
     transform: translateY(0px) rotate(315deg);
-    color: red;
     height: 3px;
   }
   .menuShow{
