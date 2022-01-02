@@ -20,9 +20,6 @@ export default function Footer() {
 
     return (
        <footer>
-        <div className="scrollToTop-btn">Top
-        </div>
-
            <p>@ {newDate} Aryan  Photograhy. Proudly created by <a rel="noopener noreferrer" target="_blank" href="https://github.com/Wev-Dev-Bibhu">Bibhuti</a></p>
        </footer>
     )
