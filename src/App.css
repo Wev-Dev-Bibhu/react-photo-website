@@ -49,6 +49,10 @@ nav{
   background: #000;
   transition: 0.5s;
 }
+.links ul li a.active{
+  color: #000;
+  background: #fff;
+}
 .links ul li a:hover{
   color: #000;
   font-weight: 600;
@@ -462,6 +466,7 @@ footer a{
   }
   #img_collection .img_container .img_box{
     margin: 0;
+    outline: none;
   }
   .contactForm input,
   .contactForm textarea{
